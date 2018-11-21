@@ -128,7 +128,7 @@
             this.Name = "LandingForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Tax Calculator";
             this.ResumeLayout(false);
 
         }

@@ -58,7 +58,7 @@
             this.PageView.Dock = System.Windows.Forms.DockStyle.Left;
             this.PageView.Location = new System.Drawing.Point(0, 0);
             this.PageView.Name = "PageView";
-            this.PageView.Size = new System.Drawing.Size(202, 640);
+            this.PageView.Size = new System.Drawing.Size(202, 729);
             this.PageView.TabIndex = 1;
             // 
             // ButtonPanel
@@ -82,7 +82,7 @@
             this.ButtonPanel.Location = new System.Drawing.Point(0, 41);
             this.ButtonPanel.Name = "ButtonPanel";
             this.ButtonPanel.Padding = new System.Windows.Forms.Padding(5);
-            this.ButtonPanel.Size = new System.Drawing.Size(202, 599);
+            this.ButtonPanel.Size = new System.Drawing.Size(202, 688);
             this.ButtonPanel.TabIndex = 1;
             // 
             // FinalizePage
@@ -244,6 +244,7 @@
             this.Page5.TabIndex = 4;
             this.Page5.Text = "Schedule 24A";
             this.Page5.UseVisualStyleBackColor = false;
+            this.Page5.Click += new System.EventHandler(this.Page5_Click);
             // 
             // Page4
             // 
@@ -292,6 +293,7 @@
             this.Page2.TabIndex = 1;
             this.Page2.Text = "Particulars Of Income and Tax";
             this.Page2.UseVisualStyleBackColor = false;
+            this.Page2.Click += new System.EventHandler(this.Page2_Click);
             // 
             // Page1
             // 
@@ -330,18 +332,21 @@
             this.PagePanel.BackColor = System.Drawing.Color.Cornsilk;
             this.PagePanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PagePanel.Location = new System.Drawing.Point(202, 0);
+            this.PagePanel.MinimumSize = new System.Drawing.Size(800, 600);
             this.PagePanel.Name = "PagePanel";
             this.PagePanel.Padding = new System.Windows.Forms.Padding(15);
-            this.PagePanel.Size = new System.Drawing.Size(882, 640);
+            this.PagePanel.Size = new System.Drawing.Size(1142, 729);
             this.PagePanel.TabIndex = 3;
             // 
             // TaxForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1084, 640);
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(1344, 729);
             this.Controls.Add(this.PagePanel);
             this.Controls.Add(this.PageView);
+            this.MinimumSize = new System.Drawing.Size(1000, 600);
             this.Name = "TaxForm";
             this.ShowIcon = false;
             this.Text = "TaxForm";
