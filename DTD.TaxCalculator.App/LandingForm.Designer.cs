@@ -41,7 +41,7 @@
             this.NewButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.NewButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NewButton.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NewButton.Location = new System.Drawing.Point(151, 186);
+            this.NewButton.Location = new System.Drawing.Point(165, 186);
             this.NewButton.Name = "NewButton";
             this.NewButton.Size = new System.Drawing.Size(70, 116);
             this.NewButton.TabIndex = 0;
@@ -56,9 +56,9 @@
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(0, 551);
+            this.label1.Location = new System.Drawing.Point(0, 549);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1062, 20);
+            this.label1.Size = new System.Drawing.Size(1088, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "2TakarDeveloper©2018 All Rights Reserved";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -69,7 +69,7 @@
             this.LoadButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.LoadButton.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LoadButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.LoadButton.Location = new System.Drawing.Point(272, 201);
+            this.LoadButton.Location = new System.Drawing.Point(285, 201);
             this.LoadButton.Name = "LoadButton";
             this.LoadButton.Size = new System.Drawing.Size(112, 35);
             this.LoadButton.TabIndex = 2;
@@ -85,7 +85,7 @@
             this.ExitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ExitButton.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ExitButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ExitButton.Location = new System.Drawing.Point(810, 320);
+            this.ExitButton.Location = new System.Drawing.Point(821, 320);
             this.ExitButton.Name = "ExitButton";
             this.ExitButton.Size = new System.Drawing.Size(45, 29);
             this.ExitButton.TabIndex = 3;
@@ -102,7 +102,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Maroon;
-            this.button2.Location = new System.Drawing.Point(519, 378);
+            this.button2.Location = new System.Drawing.Point(531, 378);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(59, 32);
             this.button2.TabIndex = 4;
@@ -116,7 +116,7 @@
             this.BackColor = System.Drawing.Color.SlateBlue;
             this.BackgroundImage = global::DTD.TaxCalculator.App.Properties.Resources.tax_banner_9be41f62ac12353fa48bc64c55165d11650bf1f3cca86c4048042146b62a36c8;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(1062, 571);
+            this.ClientSize = new System.Drawing.Size(1088, 569);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.LoadButton);

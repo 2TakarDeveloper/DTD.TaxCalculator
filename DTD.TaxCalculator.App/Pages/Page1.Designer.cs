@@ -81,8 +81,6 @@
             this.label26 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
             this.panel22 = new System.Windows.Forms.Panel();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label43 = new System.Windows.Forms.Label();
@@ -120,8 +118,6 @@
             this.label34 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.label33 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -129,16 +125,23 @@
             this.label32 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label31 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label30 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label52 = new System.Windows.Forms.Label();
             this.textBox15 = new System.Windows.Forms.TextBox();
+            this.label52 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.radioButton7 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
             dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
@@ -166,6 +169,7 @@
             this.panel9.SuspendLayout();
             this.panel8.SuspendLayout();
             this.panel7.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -346,15 +350,17 @@
             // textBox14
             // 
             this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox14.Location = new System.Drawing.Point(10, 27);
+            this.textBox14.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox14.Location = new System.Drawing.Point(228, 0);
+            this.textBox14.Multiline = true;
             this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(431, 27);
+            this.textBox14.Size = new System.Drawing.Size(217, 59);
             this.textBox14.TabIndex = 4;
             // 
             // label51
             // 
             this.label51.AutoSize = true;
-            this.label51.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label51.Dock = System.Windows.Forms.DockStyle.Left;
             this.label51.Location = new System.Drawing.Point(0, 0);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(228, 19);
@@ -825,39 +831,13 @@
             // 
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.tableLayoutPanel1.SetColumnSpan(this.panel10, 2);
-            this.panel10.Controls.Add(this.checkBox9);
-            this.panel10.Controls.Add(this.checkBox10);
+            this.panel10.Controls.Add(this.radioButton1);
+            this.panel10.Controls.Add(this.radioButton7);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel10.Location = new System.Drawing.Point(505, 271);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(497, 61);
             this.panel10.TabIndex = 44;
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox9.Location = new System.Drawing.Point(291, 18);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.checkBox9.Size = new System.Drawing.Size(133, 27);
-            this.checkBox9.TabIndex = 8;
-            this.checkBox9.Text = "Non-Resident";
-            this.checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // checkBox10
-            // 
-            this.checkBox10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox10.Location = new System.Drawing.Point(119, 14);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.checkBox10.Size = new System.Drawing.Size(95, 27);
-            this.checkBox10.TabIndex = 7;
-            this.checkBox10.Text = "Resident";
-            this.checkBox10.UseVisualStyleBackColor = true;
             // 
             // panel22
             // 
@@ -1111,6 +1091,7 @@
             // panel8
             // 
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel8.Controls.Add(this.textBox17);
             this.panel8.Controls.Add(this.label36);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel8.Location = new System.Drawing.Point(555, 204);
@@ -1184,6 +1165,8 @@
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.Controls.Add(this.textBox16);
+            this.panel6.Controls.Add(this.label53);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel6.Location = new System.Drawing.Point(555, 137);
             this.panel6.Name = "panel6";
@@ -1246,40 +1229,14 @@
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.checkBox3);
-            this.panel4.Controls.Add(this.checkBox4);
+            this.panel4.Controls.Add(this.radioButton2);
+            this.panel4.Controls.Add(this.radioButton3);
             this.panel4.Controls.Add(this.label33);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(555, 70);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(447, 61);
             this.panel4.TabIndex = 7;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.Location = new System.Drawing.Point(255, 33);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.checkBox3.Size = new System.Drawing.Size(84, 27);
-            this.checkBox3.TabIndex = 6;
-            this.checkBox3.Text = "Female";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox4.Location = new System.Drawing.Point(83, 29);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.checkBox4.Size = new System.Drawing.Size(67, 27);
-            this.checkBox4.TabIndex = 5;
-            this.checkBox4.Text = "Male";
-            this.checkBox4.UseVisualStyleBackColor = true;
             // 
             // label33
             // 
@@ -1347,40 +1304,14 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.checkBox2);
-            this.panel2.Controls.Add(this.checkBox1);
+            this.panel2.Controls.Add(this.radioButton4);
+            this.panel2.Controls.Add(this.radioButton5);
             this.panel2.Controls.Add(this.label31);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(555, 3);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(447, 61);
             this.panel2.TabIndex = 3;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox2.Location = new System.Drawing.Point(255, 29);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.checkBox2.Size = new System.Drawing.Size(54, 27);
-            this.checkBox2.TabIndex = 3;
-            this.checkBox2.Text = "NO";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(83, 28);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.checkBox1.Size = new System.Drawing.Size(54, 27);
-            this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "Yes";
-            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // label31
             // 
@@ -1429,26 +1360,17 @@
             this.panel1.Size = new System.Drawing.Size(446, 61);
             this.panel1.TabIndex = 1;
             // 
-            // label30
+            // textBox15
             // 
-            this.label30.AutoSize = true;
-            this.label30.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label30.Location = new System.Drawing.Point(0, 0);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(119, 19);
-            this.label30.TabIndex = 0;
-            this.label30.Text = "Assessment Year";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.comboBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(0, 19);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(154, 27);
-            this.comboBox1.TabIndex = 1;
+            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox15.Dock = System.Windows.Forms.DockStyle.Left;
+            this.textBox15.Enabled = false;
+            this.textBox15.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox15.Location = new System.Drawing.Point(168, 19);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.ReadOnly = true;
+            this.textBox15.Size = new System.Drawing.Size(73, 23);
+            this.textBox15.TabIndex = 3;
             // 
             // label52
             // 
@@ -1461,17 +1383,130 @@
             this.label52.TabIndex = 2;
             this.label52.Text = "-";
             // 
-            // textBox15
+            // comboBox1
             // 
-            this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox15.Dock = System.Windows.Forms.DockStyle.Left;
-            this.textBox15.Enabled = false;
-            this.textBox15.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox15.Location = new System.Drawing.Point(168, 19);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.ReadOnly = true;
-            this.textBox15.Size = new System.Drawing.Size(73, 23);
-            this.textBox15.TabIndex = 3;
+            this.comboBox1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.comboBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(0, 19);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(154, 27);
+            this.comboBox1.TabIndex = 1;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label30.Location = new System.Drawing.Point(0, 0);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(119, 19);
+            this.label30.TabIndex = 0;
+            this.label30.Text = "Assessment Year";
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label53.Location = new System.Drawing.Point(0, 0);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(62, 19);
+            this.label53.TabIndex = 4;
+            this.label53.Text = "Old TIN:";
+            // 
+            // textBox16
+            // 
+            this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox16.Location = new System.Drawing.Point(7, 16);
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(431, 27);
+            this.textBox16.TabIndex = 5;
+            // 
+            // textBox17
+            // 
+            this.textBox17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox17.Location = new System.Drawing.Point(7, 16);
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(431, 27);
+            this.textBox17.TabIndex = 7;
+            // 
+            // radioButton7
+            // 
+            this.radioButton7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.radioButton7.AutoSize = true;
+            this.radioButton7.Checked = true;
+            this.radioButton7.Location = new System.Drawing.Point(70, 17);
+            this.radioButton7.Name = "radioButton7";
+            this.radioButton7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.radioButton7.Size = new System.Drawing.Size(84, 23);
+            this.radioButton7.TabIndex = 7;
+            this.radioButton7.TabStop = true;
+            this.radioButton7.Text = "Resident";
+            this.radioButton7.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(233, 17);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.radioButton1.Size = new System.Drawing.Size(115, 23);
+            this.radioButton1.TabIndex = 8;
+            this.radioButton1.Text = "Non-Resident";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(233, 26);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.radioButton2.Size = new System.Drawing.Size(74, 23);
+            this.radioButton2.TabIndex = 10;
+            this.radioButton2.Text = "Female";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Checked = true;
+            this.radioButton3.Location = new System.Drawing.Point(70, 26);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.radioButton3.Size = new System.Drawing.Size(60, 23);
+            this.radioButton3.TabIndex = 9;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Male";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Location = new System.Drawing.Point(235, 25);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.radioButton4.Size = new System.Drawing.Size(45, 23);
+            this.radioButton4.TabIndex = 10;
+            this.radioButton4.Text = "No";
+            this.radioButton4.UseVisualStyleBackColor = true;
+            // 
+            // radioButton5
+            // 
+            this.radioButton5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.radioButton5.AutoSize = true;
+            this.radioButton5.Checked = true;
+            this.radioButton5.Location = new System.Drawing.Point(72, 25);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.radioButton5.Size = new System.Drawing.Size(49, 23);
+            this.radioButton5.TabIndex = 9;
+            this.radioButton5.TabStop = true;
+            this.radioButton5.Text = "Yes";
+            this.radioButton5.UseVisualStyleBackColor = true;
             // 
             // Page1
             // 
@@ -1534,6 +1569,8 @@
             this.panel8.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel4.ResumeLayout(false);
@@ -1609,8 +1646,6 @@
         private System.Windows.Forms.Panel panel25;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.TextBox textBox1;
@@ -1619,8 +1654,6 @@
         private System.Windows.Forms.CheckBox checkBox7;
         private System.Windows.Forms.CheckBox checkBox6;
         private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox10;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label36;
@@ -1628,8 +1661,6 @@
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Label label39;
@@ -1658,5 +1689,14 @@
         private System.Windows.Forms.Label label52;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.RadioButton radioButton7;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton3;
+        private System.Windows.Forms.RadioButton radioButton4;
+        private System.Windows.Forms.RadioButton radioButton5;
     }
 }

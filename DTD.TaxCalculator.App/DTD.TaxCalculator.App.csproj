@@ -59,11 +59,23 @@
     <Compile Include="Pages\Page1.Designer.cs">
       <DependentUpon>Page1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Page11.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\Page11.Designer.cs">
+      <DependentUpon>Page11.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Page2.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Pages\Page2.Designer.cs">
       <DependentUpon>Page2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Page3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\Page3.Designer.cs">
+      <DependentUpon>Page3.cs</DependentUpon>
     </Compile>
     <Compile Include="Pages\Page5.cs">
       <SubType>UserControl</SubType>
@@ -85,8 +97,14 @@
     <EmbeddedResource Include="Pages\Page1.resx">
       <DependentUpon>Page1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Page11.resx">
+      <DependentUpon>Page11.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pages\Page2.resx">
       <DependentUpon>Page2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Page3.resx">
+      <DependentUpon>Page3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\Page5.resx">
       <DependentUpon>Page5.cs</DependentUpon>
