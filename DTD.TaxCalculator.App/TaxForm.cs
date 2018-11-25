@@ -49,11 +49,20 @@ namespace DTD.TaxCalculator.App
             PagePanel.Controls.Add(page5);
         }
 
+        private void Page8_Click(object sender, EventArgs e)
+        {
+            Page8 page8 = new Page8() { Dock = DockStyle.Top };
+            PagePanel.Controls.Clear();
+            PagePanel.Controls.Add(page8);
+        }
+
         private void Page11_Click(object sender, EventArgs e)
         {
             Page11 page11 = new Page11() { Dock = DockStyle.Top };
             PagePanel.Controls.Clear();
             PagePanel.Controls.Add(page11);
         }
+
+    
     }
 }

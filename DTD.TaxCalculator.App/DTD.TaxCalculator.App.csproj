@@ -83,6 +83,12 @@
     <Compile Include="Pages\Page5.Designer.cs">
       <DependentUpon>Page5.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Page8.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\Page8.Designer.cs">
+      <DependentUpon>Page8.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TaxForm.cs">
@@ -108,6 +114,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\Page5.resx">
       <DependentUpon>Page5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Page8.resx">
+      <DependentUpon>Page8.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

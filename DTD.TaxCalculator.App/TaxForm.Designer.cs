@@ -197,6 +197,7 @@
             this.Page8.TabIndex = 7;
             this.Page8.Text = "Schedule 24D";
             this.Page8.UseVisualStyleBackColor = false;
+            this.Page8.Click += new System.EventHandler(this.Page8_Click);
             // 
             // Page7
             // 

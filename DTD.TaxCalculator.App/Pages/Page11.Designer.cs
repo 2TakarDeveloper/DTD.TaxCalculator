@@ -105,22 +105,22 @@
             this.numericUpDown18 = new System.Windows.Forms.NumericUpDown();
             this.textBox18 = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.numericUpDown22 = new System.Windows.Forms.NumericUpDown();
+            this.label48 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.numericUpDown20 = new System.Windows.Forms.NumericUpDown();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label43 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
             this.numericUpDown19 = new System.Windows.Forms.NumericUpDown();
             this.textBox19 = new System.Windows.Forms.TextBox();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.numericUpDown20 = new System.Windows.Forms.NumericUpDown();
             this.textBox20 = new System.Windows.Forms.TextBox();
-            this.label45 = new System.Windows.Forms.Label();
             this.label46 = new System.Windows.Forms.Label();
             this.numericUpDown21 = new System.Windows.Forms.NumericUpDown();
             this.textBox21 = new System.Windows.Forms.TextBox();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.numericUpDown22 = new System.Windows.Forms.NumericUpDown();
-            this.textBox22 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
@@ -140,10 +140,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown18)).BeginInit();
             this.tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown21)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -1160,6 +1160,101 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(824, 756);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
+            // textBox22
+            // 
+            this.textBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox22.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox22.Location = new System.Drawing.Point(608, 729);
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(213, 27);
+            this.textBox22.TabIndex = 90;
+            // 
+            // numericUpDown22
+            // 
+            this.numericUpDown22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.numericUpDown22.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.numericUpDown22.Location = new System.Drawing.Point(460, 729);
+            this.numericUpDown22.Maximum = new decimal(new int[] {
+            1215752191,
+            23,
+            0,
+            0});
+            this.numericUpDown22.Name = "numericUpDown22";
+            this.numericUpDown22.Size = new System.Drawing.Size(142, 27);
+            this.numericUpDown22.TabIndex = 89;
+            this.numericUpDown22.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tableLayoutPanel1.SetColumnSpan(this.label48, 2);
+            this.label48.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label48.Location = new System.Drawing.Point(51, 726);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(403, 30);
+            this.label48.TabIndex = 88;
+            this.label48.Text = "Total amount of expense and tax (12+13)";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label47.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label47.Location = new System.Drawing.Point(3, 726);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(42, 30);
+            this.label47.TabIndex = 87;
+            this.label47.Text = "14";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label45.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label45.Location = new System.Drawing.Point(51, 660);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(40, 33);
+            this.label45.TabIndex = 83;
+            this.label45.Text = "13A";
+            // 
+            // numericUpDown20
+            // 
+            this.numericUpDown20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.numericUpDown20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.numericUpDown20.Location = new System.Drawing.Point(460, 663);
+            this.numericUpDown20.Maximum = new decimal(new int[] {
+            1215752191,
+            23,
+            0,
+            0});
+            this.numericUpDown20.Name = "numericUpDown20";
+            this.numericUpDown20.Size = new System.Drawing.Size(142, 27);
+            this.numericUpDown20.TabIndex = 81;
+            this.numericUpDown20.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label44.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label44.Location = new System.Drawing.Point(97, 660);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(357, 33);
+            this.label44.TabIndex = 80;
+            this.label44.Text = "Payment of tax at source ";
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label43.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label43.Location = new System.Drawing.Point(51, 693);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(40, 33);
+            this.label43.TabIndex = 79;
+            this.label43.Text = "13A";
+            // 
             // label41
             // 
             this.label41.AutoSize = true;
@@ -1208,43 +1303,6 @@
             this.textBox19.Size = new System.Drawing.Size(213, 27);
             this.textBox19.TabIndex = 78;
             // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label43.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label43.Location = new System.Drawing.Point(51, 693);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(40, 33);
-            this.label43.TabIndex = 79;
-            this.label43.Text = "13A";
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label44.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label44.Location = new System.Drawing.Point(97, 660);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(357, 33);
-            this.label44.TabIndex = 80;
-            this.label44.Text = "Payment of tax at source ";
-            // 
-            // numericUpDown20
-            // 
-            this.numericUpDown20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.numericUpDown20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.numericUpDown20.Location = new System.Drawing.Point(460, 663);
-            this.numericUpDown20.Maximum = new decimal(new int[] {
-            1215752191,
-            23,
-            0,
-            0});
-            this.numericUpDown20.Name = "numericUpDown20";
-            this.numericUpDown20.Size = new System.Drawing.Size(142, 27);
-            this.numericUpDown20.TabIndex = 81;
-            this.numericUpDown20.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
             // textBox20
             // 
             this.textBox20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -1253,17 +1311,6 @@
             this.textBox20.Name = "textBox20";
             this.textBox20.Size = new System.Drawing.Size(213, 27);
             this.textBox20.TabIndex = 82;
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label45.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label45.Location = new System.Drawing.Point(51, 660);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(40, 33);
-            this.label45.TabIndex = 83;
-            this.label45.Text = "13A";
             // 
             // label46
             // 
@@ -1300,53 +1347,6 @@
             this.textBox21.Size = new System.Drawing.Size(213, 27);
             this.textBox21.TabIndex = 86;
             // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label47.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label47.Location = new System.Drawing.Point(3, 726);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(42, 30);
-            this.label47.TabIndex = 87;
-            this.label47.Text = "14";
-            // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tableLayoutPanel1.SetColumnSpan(this.label48, 2);
-            this.label48.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label48.Location = new System.Drawing.Point(51, 726);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(403, 30);
-            this.label48.TabIndex = 88;
-            this.label48.Text = "Total amount of expense and tax (12+13)";
-            // 
-            // numericUpDown22
-            // 
-            this.numericUpDown22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.numericUpDown22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.numericUpDown22.Location = new System.Drawing.Point(460, 729);
-            this.numericUpDown22.Maximum = new decimal(new int[] {
-            1215752191,
-            23,
-            0,
-            0});
-            this.numericUpDown22.Name = "numericUpDown22";
-            this.numericUpDown22.Size = new System.Drawing.Size(142, 27);
-            this.numericUpDown22.TabIndex = 89;
-            this.numericUpDown22.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // 
-            // textBox22
-            // 
-            this.textBox22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox22.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBox22.Location = new System.Drawing.Point(608, 729);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(213, 27);
-            this.textBox22.TabIndex = 90;
-            // 
             // Page11
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
@@ -1356,7 +1356,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Page11";
             this.Size = new System.Drawing.Size(824, 806);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
@@ -1379,10 +1379,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown18)).EndInit();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown21)).EndInit();
             this.ResumeLayout(false);
 
         }
